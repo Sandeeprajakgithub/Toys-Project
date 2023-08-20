@@ -41,6 +41,6 @@ public class SendEmail {
 
 class MailAuthenticator extends Authenticator {
     public PasswordAuthentication getPasswordAuthentication() {
-        return new PasswordAuthentication("sandeeprajakbus@outlook.com", "Sandeep@9981");
+        return new PasswordAuthentication("sandeeprajakbus@", "pass");
     }
 }
